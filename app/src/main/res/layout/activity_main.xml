@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="30sp"
+                tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/xValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstLayout"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/xGValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yGValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/zGValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondLayout"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/xMValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yMValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/zMValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdLayout"
+        android:layout_marginTop="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/light"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/pressure"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/humi"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
